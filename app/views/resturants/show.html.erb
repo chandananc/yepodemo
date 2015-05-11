@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @resturant.name %>
+</p>
+<p>
+  <strong>Address:</strong>
+  <%= @resturant.address %>
+</p>
+<p>
+  <strong>Phone:</strong>
+  <%= @resturant.phone %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @resturant.website %>
+</p>
+
+<%= link_to 'Edit', edit_resturant_path(@resturant) , class:"btn btn-link"  %> |
+<%= link_to 'Back', resturants_path , class:"btn btn-link"  %>
